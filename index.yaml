@@ -1,0 +1,46 @@
+apiVersion: v1
+entries:
+  hetzner-failover-ip:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-04-30T16:06:35.016768177+01:00
+    description: High available IPs (< 15s) with Kubernetes in Hetzner Clouds. This
+      helm chart manages the assignment of your floating IPs if the target machine
+      or process dies. No single point of failure anymore! When your machine or process
+      crashes, the remaining (selected) ones, elect one to be then the new master
+      and fires an API call to Hetzner to switchover to the new master.
+    digest: a566946ddf2d143d911575ec48c804e0cd38cf1d59a679659c5e4b8f745324a8
+    icon: https://www.hetzner.de/assets/Uploads/icon-circle-cloud.svg
+    keywords:
+    - floating ip
+    - high availablility
+    - hetzner
+    - routing
+    maintainers:
+    - email: mail@jezekjan.com
+      name: Jan Jezek
+    name: hetzner-failover-ip
+    urls:
+    - hetzner-failover-ip-0.1.0.tgz
+    version: 0.1.0
+  mongodb-statefulset:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-04-30T16:06:35.017258338+01:00
+    description: MongodB StatefulSet
+    digest: 9daf542bb06ca8b418161bfe398079e90af264f1859e50c62d961e7b0002c8d8
+    name: mongodb-statefulset
+    urls:
+    - mongodb-statefulset-0.1.0.tgz
+    version: 0.1.0
+  openebs-for-mongodb:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-04-30T16:06:35.017954667+01:00
+    description: Deploys openebs prepared for mongodb
+    digest: 502c0438d455ae6c72c3eb7dfff300f26e2213f73d89651aeb0971ba710899a0
+    name: openebs-for-mongodb
+    urls:
+    - openebs-for-mongodb-0.1.0.tgz
+    version: 0.1.0
+generated: 2019-04-30T16:06:35.015464117+01:00
